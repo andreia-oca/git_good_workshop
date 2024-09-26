@@ -4,13 +4,13 @@ In this section, we will cover the most common Git workflow for merging changes 
 
 ## Fork - clone - status
 
-1. Fork the following repository
+### Fork the following repository
 
 Start by creating a copy of the repository under your GitHub account by "forking" it. Fork the following repository https://github.com/andreia-oca/git_good_workshop.
 
 Forking allows you to work on your own version of the repository, ensuring that the original repository remains unaffected by your changes.
 
-2. Clone it on your local machine:
+### Clone it on your local machine:
 Once you've forked the repository, clone it to your local machine to start working on it:
 
 ```bash
@@ -19,7 +19,7 @@ git clone https://github.com/andreia-oca/git_good_workshop
 
 This command copies the content of the repository to your computer, where you can modify and experiment without affecting the remote repository until you're ready to push changes.
 
-3. Check the status of the repository:
+### Check the status of the repository:
 To verify your current working state, use the git status command:
 
 ```bash
@@ -64,7 +64,6 @@ This command does two things:
 
 You can run `git status` to verify that you are now on the new branch.
 
-
 ### Make a change
 
 In the sections directory, create a new markdown file with your name. This file will contain your testimonial or expectations for this workshop. Name the file <name>.md (again, replacing <name> with your name), and add your text.
@@ -78,7 +77,6 @@ git add sections/<name>.md
 ```
 
 Check the status again to see that the file is now staged for commit.
-
 
 ### Commit your changes
 
@@ -109,3 +107,31 @@ git push origin <name>-testimonial
 ```
 
 Congratulations! You've successfully created a new branch, made changes, committed them, and pushed them to the remote repository. You can now open a pull request to merge your changes into the main branch.
+
+## Remote repository - origin and upstream
+
+In `git`, `origin` and `upstream` refer to different remote repositories used for collaboration and version control.
+The `origin` refers to the repository you cloned from, while `upstream` refers to the original repository from which your repository was forked.
+
+`origin` is the default name for the remote repository from which you cloned your project. It typically refers to your main remote repository, where you push your changes and pull updates.
+
+You can verify the remote setup using:
+
+```bash
+git remote -v
+```
+
+Your terminal will print something like this:
+```
+origin  https://github.com/user/my-project.git (fetch)
+origin  https://github.com/user/my-project.git (push)
+```
+
+If your repository is forked from another repository, you can set up the `upstream` remote to track the original repository. This allows you to pull changes from the original repository into your forked repository.
+
+```
+upstream  https://github.com/user/my-project.git (fetch)
+upstream  https://github.com/user/my-project.git (push)
+```
+
+You would use upstream to pull changes from the main project (the original repository) into your local repository so that your fork stays up to date with the main one.

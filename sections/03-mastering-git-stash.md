@@ -90,3 +90,13 @@ git stash drop stash@{n}
 ```
 
 Stashes will save you out of pickle a lot of times. They are a great way to save your work and come back to it later.
+
+## Test around
+
+1. Create and Modify Files: Create several files and make changes to them to simulate work in progress.
+2. Add Files to the Staging Area: Use git add to stage the modified files, preparing them for a commit.
+3. Stash Changes: Stash the changes using git stash to save your work without committing.
+4. Retrieve Stashed Changes: Use `git stash pop` to retrieve and apply the stashed changes back to your working directory.
+5. Create Multiple Stash Entries: Repeat the process to create additional stash entries with different files and messages.
+6. Show Stash Contents: Use git stash list to view the stashed entries and their associated messages.
+7. Retrieve or Drop Stashes: Retrieve specific stashes using `git stash apply <stash@{n}>` or drop unwanted stashes using `git stash drop <stash@{n}>`.

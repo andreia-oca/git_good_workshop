@@ -38,3 +38,35 @@ Once the cherry-pick is complete, you can push the changes to the remote reposit
 ```bash
 git push
 ```
+
+## Switch branches with git switch
+
+The git switch command is used to switch between branches. It's a more intuitive alternative to git checkout for moving between branches and creating new ones.
+
+```
+git switch <branch>
+# or
+git switch -c <branch>
+```
+
+You can also use git stash to save your uncommitted changes when switching branches. This is particularly helpful when you need to switch tasks without losing your current progress.
+
+```
+git stash
+git switch <branch>
+git stash pop
+```
+
+`git checkout` is still available for switching branches, but `git switch` is recommended for its simplicity and clarity.
+
+Note: `git checkout` and `git switch` both allow you to switch between branches in Git, but git switch is a more specialized, user-friendly command introduced in Git 2.23 to reduce the complexity of git checkout. While git checkout can switch branches, create new ones, and even check out specific files, it has a broad range of behaviors that can sometimes be confusing. git switch focuses solely on changing branches, making it clearer and safer to use for that specific task. It offers simpler syntax for common operations like creating a new branch (git switch -c <branch-name>) or moving to an existing one.
+
+## Test around
+
+1. Create New Branches: Create two or more new branches from the main branch.
+2. Make Changes and Commit: Make a change in each branch and commit those changes.
+3. Cherry-Pick a Commit: Cherry-pick a commit from one branch and apply it to another branch.
+4. Make Multiple Commits: In one of the branches, create multiple commits to simulate more extensive work.
+5. Hot-Fixing: Cherry-pick a specific commit that contains a hotfix and apply it to the main branch.
+6. Push Changes to Remote: Push all the changes to the remote repository.
+7. Verify on GitHub: Check the remote repository on GitHub to confirm that your changes have been applied successfully.

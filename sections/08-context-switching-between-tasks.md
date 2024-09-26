@@ -2,29 +2,6 @@
 
 When working on multiple features or bug fixes simultaneously, it's important to switch between different branches and manage commits efficiently. Git offers several tools to help you transition smoothly between tasks, manage changes, and keep your commit history clean.
 
-## git switch
-
-The git switch command is used to switch between branches. It's a more intuitive alternative to git checkout for moving between branches and creating new ones.
-
-
-```
-git switch <branch>
-# or
-git switch -c <branch>
-```
-
-You can also use git stash to save your uncommitted changes when switching branches. This is particularly helpful when you need to switch tasks without losing your current progress.
-
-```
-git stash
-git switch <branch>
-git stash pop
-```
-
-`git checkout` is still available for switching branches, but `git switch` is recommended for its simplicity and clarity.
-
-`git checkout` and `git switch` both allow you to switch between branches in Git, but git switch is a more specialized, user-friendly command introduced in Git 2.23 to reduce the complexity of git checkout. While git checkout can switch branches, create new ones, and even check out specific files, it has a broad range of behaviors that can sometimes be confusing. git switch focuses solely on changing branches, making it clearer and safer to use for that specific task. It offers simpler syntax for common operations like creating a new branch (git switch -c <branch-name>) or moving to an existing one (git switch <branch-name>).
-
 ## git rebase
 
 `git rebase` is used to move or apply commits from one branch onto another, effectively "rebasing" the branch. It's often used to keep feature branches up to date with the latest changes from main without creating merge commits.
@@ -75,3 +52,11 @@ You can also squash automatically when merging a feature branch:
 ```bash
 git merge --squash <feature-branch>
 ```
+
+## Test around
+
+1. Rebase a Feature Branch: On one of the feature branches, run git rebase main to apply the latest changes from the main branch and keep the feature branch up to date.
+2. Merge a Feature Branch: Switch to the main branch and use git merge <feature-branch> to combine changes, observing how Git handles merge commits.
+3. Squash Commits During Rebase: Perform an interactive rebase with `git rebase -i HEAD~<n>` on a feature branch, squashing several commits into one to clean up the commit history.
+4. Automatic Squashing on Merge: Merge a feature branch into the main branch using `git merge --squash <feature-branch>` to see how Git combines commits without creating a merge commit.
+5. Push Changes to Remote: After making changes, push your branches to the remote repository to verify that the history is clean and structured as expected.

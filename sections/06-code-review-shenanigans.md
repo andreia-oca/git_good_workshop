@@ -50,3 +50,11 @@ git please <origin> <branch>
 # or
 git push --force-with-lease <origin> <branch>
 ```
+
+## Test around
+
+1. Create multiple commits: Make several small changes and commit them individually in a local `git` repository.
+2. Interactive rebase: Use `git rebase -i HEAD~<n>` to reorder, squash, or edit commits. Change commit messages and test squashing related commits into one.
+3. Amend a commit: After making a small change, use `git commit --amend` to update the last commit with the new changes or modify its message.
+4. Force push safely: After rebasing or amending commits, try to `git push`.
+5. Use `git please` or `git push --force-with-lease` to push changes and ensure you're not overwriting remote commits.

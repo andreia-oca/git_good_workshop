@@ -138,5 +138,7 @@ You are all set up! Now you can use these configurations in your day-to-day work
 
 ## Add your git alias here
 
-If you have a favourite `git` configuration or alias that you would like to share, feel free to open a pull request with it.
+Feel free to contribute to this section by opening a pull request.
+
+If you have a favorite `git` configuration or alias that you would like to share, feel free to open a pull request with it.
 I would love to see more tips and tricks from the community and the workshop will benefit from it as well <3.

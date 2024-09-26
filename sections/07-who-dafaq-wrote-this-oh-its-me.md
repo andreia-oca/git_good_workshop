@@ -115,3 +115,20 @@ git revert <commit-sha>
 ```
 
 This creates a new commit that undoes the changes introduced by the specified commit.
+
+## Test around
+
+To practice these commands, you can clone a repository with more contributors and larger history such as the one used for the demo.
+1. Clone a repository with multiple contributors.
+```
+git clone https://github.com/genez-io/genezio
+```
+2. Use git blame: Select a file of interest and use `git blame <file>` to see who last modified each line. Identify the author of a specific change that you're curious about.
+3. Perform a Bisect - try to find the commit where genezio has the version 2.6.0 (check `package.json` for the version).
+    * Start a bisect session with git bisect start.
+    * Mark a known good commit with git bisect good <commit-sha>.
+    * Mark a known bad commit with git bisect bad <commit-sha>.
+    * Test the commits as Git checks them out, running git bisect good or git bisect bad until you find the commit that introduced the bug.
+    * Reset the bisect session with git bisect reset once done.
+4. View Commit History with git log: Use `git log`, `git hist`, `git show` and its various options to explore the commit history.
+5. Revert a Commit: Revert a commit using `git revert` and observe how it creates a new commit that undoes the changes.
