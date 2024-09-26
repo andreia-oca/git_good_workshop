@@ -10,6 +10,14 @@ Preferably, have a unix/linux/macOS machine. Windows users can use WSL.
 
 Preferably, you should have a GitHub account (I am sure this workshop can work with other git providers as well, but these docs will be biased towards GitHub).
 
+## Workshop mindset
+
+* This workshop is a hands-on workshop. You will learn by doing - experiment with commands, be curious, break things, ask questions, repeat.
+* It's self-paced - you can spend time on the sections you find interesting or challenging.
+* The goal of this workshop is to make you more comfortable with `git` and to configure new commands that will help you in your day-to-day work. Spend time on setting them to your needs.
+* Feel free to contribute to this repository - add new sections, add your feedback, notes, expectations in the `testimonials` directory.
+* This repository is your chance to create PRs, test things and learn how to contribute to open-source projects without the fear of breaking things.
+
 ## Sections
 
 Each section is a markdown file in the `sections` directory.
