@@ -44,3 +44,4 @@ They refer to advanced topics and the guts of `git`.
 - Git's Best And Most Unknown Feature - https://www.youtube.com/watch?v=2uEqYw-N8uE - how to configure and use worktrees.
 - You only Git Merge?!? feat Theo : DevHour #1 - https://www.youtube.com/watch?v=7gEbHsHXdn0 - git merge vs git rebase - what's best for big projects
 - The guts of git - https://guts-of-git.carson-anderson.com/docs/workshop/ - git internals
+- Tutorial on git reflog - https://www.git-tower.com/learn/git/faq/what-is-git-reflog
