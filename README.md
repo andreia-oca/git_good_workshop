@@ -18,11 +18,11 @@ There you will find instruction, examples and commands to run based on a specifi
 - [The usual git flow](sections/01-the-usual-git-flow.md) - clone/fork, create a branch, status, commit some changes, git status, git push
 - [Make yourself at home](sections/02-make-yourself-at-home.md) - git config, git hist, git show, git diff
 - [Mastering git stash](sections/03-mastering-git-stash.md) - git stash
-- [Solving conflicts like a pro](sections/04-solving-conflicts-like-a-pro.md) - git merge, git rebase, git diff
-- [Hot fixing in production](sections/05-hot-fixing-in-production.md) - git cherry-pick, git please
-- [Code review shenanigans](sections/06-code-review-shenanigans.md) - git rebase -i, git commit -sv --amend, git commit -svm
-- [Who dafaq wrote this - oh it's me](sections/07-who-dafaq-wrote-this-oh-its-me.md) - git blame, git bisect
-- [Context switching between tasks](sections/08-context-switching-between-tasks.md) - git stash, git rebase, git merge, git squash
+- [Hot fixing in production](sections/04-hot-fixing-in-production.md) - git cherry-pick, git please
+- [Code review shenanigans](sections/05-code-review-shenanigans.md) - git rebase -i, git commit -sv --amend, git commit -svm
+- [Who dafaq wrote this - oh it's me](sections/06-who-dafaq-wrote-this-oh-its-me.md) - git blame, git bisect
+- [Context switching between tasks](sections/07-context-switching-between-tasks.md) - git stash, git rebase, git merge, git squash
+- [Advanced settings](sections/08-advanced-settings.md) - ssh key, pre-commit hooks
 
 ## Contributions
 
