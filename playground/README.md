@@ -7,3 +7,4 @@ As any playground - we have a few rules:
 * Add content and commit messages in english
 * Try to add descriptive commit messages
 * Be nice with any other content you find in here
+* Have fun
