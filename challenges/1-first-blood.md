@@ -8,4 +8,4 @@ Once you're done, push your branch to the remote and open a Pull Request (PR) ag
 
 This will help you practice the basic workflow of contributing to a shared repo.
 
-[Guidelines and docs](../section/01-the-usual-git-flow.md)
+[Guidelines and docs](../sections/01-the-usual-git-flow.md)

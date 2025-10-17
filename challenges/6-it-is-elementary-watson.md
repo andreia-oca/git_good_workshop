@@ -11,4 +11,4 @@ Explore the commits: The repository has multiple commits that progressively modi
 
 Use `git bissect` to identify the commit that contains the flag.
 
-[Guidelines and docs](../section/06-who-dafaq-wrote-this-oh-its-me.md)
+[Guidelines and docs](../sections/06-who-dafaq-wrote-this-oh-its-me.md)
