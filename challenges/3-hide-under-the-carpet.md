@@ -12,4 +12,4 @@ Follow the steps below to master stashing:
 6. Pop and apply stashes to bring your changes back into the working directory.
 7. Selectively apply or drop specific stashes using their stash@{n} references.
 
-[Guidelines and docs](../section/03-mastering-git-stash.md)
+[Guidelines and docs](../sections/03-mastering-git-stash.md)

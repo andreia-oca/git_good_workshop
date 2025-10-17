@@ -11,4 +11,4 @@ Explore the branches `living_room`, `basement`, `terrace` and the commits ahead 
 
 Each branch contains a few commits that are ahead of main. Your task is to bring all those changes together by cherry-picking the commits onto the main branch — without merging the branches themselves.
 
-[Guidelines and docs](../section/04-hot-fixing-in-production.md)
+[Guidelines and docs](../sections/04-hot-fixing-in-production.md)

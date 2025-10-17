@@ -14,4 +14,4 @@ You’ll need to configure this alias using  `git config` or by editing `~/.gitc
 
 Instead of using the cluttered `git log`, you can now use your brand new `git hist` to check the older commits.
 
-[Guidelines and docs](../section/02-make-yourself-at-home.md)
+[Guidelines and docs](../sections/02-make-yourself-at-home.md)

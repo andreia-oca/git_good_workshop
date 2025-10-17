@@ -19,4 +19,4 @@ Use `git rebase -i` to have the following history only:
 
 You’ll need to reorder, squash, and edit commit messages during the rebase to achieve this clean structure. When done, check the log to confirm the history matches the desired format.
 
-[Guidelines and docs](../section/05-code-review-shenanigans.md)
+[Guidelines and docs](../sections/05-code-review-shenanigans.md)
