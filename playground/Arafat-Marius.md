@@ -1,0 +1,10 @@
+IDK I don't watch movies so let me tell you about helicoidal gears
+Helical gears are one type of cylindrical gears with slanted tooth trace. Compared to spur gears, they have the larger contact ratio and excel in quietness and less vibration and able to transmit large force. A pair of helical gears has the same helix angle but the helix hand is opposite.
+
+When the reference section of the gear is in the normal plane, by tilting the hobbing tool, the spur gear hobbing machine and hobbing tool can be used to produce helical gears. Because of the twist of teeth, their manufacturing has the disadvantage of more difficult production.
+
+The helical gears made by KHK can be classified into two groups by the reference section of the gears being in the rotating plane (transverse module) and normal plane (normal module). If the reference section is in the rotating plane, the center distance is identical to spur gears as long as they are the same module and number of teeth. This allows for easy swapping with spur gears. However, in this case, they require special hobbing cutters and grinding stones, leading to higher production cost. On the other hand, if the reference section is in the normal plane, it is possible to use spur gear hobbing tools and grinding stones. However, the same module and number of teeth in spur gears no longer match the center distance of helical gears, and swapping becomes very difficult. In addition, the center distance is usually not an integer.
+
+While spur gears do not generate axial thrust forces, because of the twist in the tooth trace, helical gears produce axial thrust force. Therefore, it is desirable to use thrust bearings to absorb this force. However, combining right hand and left hand helical gears making double helical gears will eliminate the thrust force.
+
+Helical gears are often used in automotive transmissions by replacing spur gears.
